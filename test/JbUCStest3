@@ -1,0 +1,30 @@
+Algoritma: UCS
+Heuristic: H1
+Solusi Yang Ditemukan: UR
+Cost dari Solusi: 9
+Waktu eksekusi: 0.000 ms
+Banyak iterasi yang dilakukan: 4 iterasi
+
+Initial
+XXXXX
+X0*OX
+XZ**X
+XXXXX
+
+Step 1 : U
+XXXXX
+XZ*OX
+X***X
+XXXXX
+
+Step 2 : R
+XXXXX
+X**ZX
+X***X
+XXXXX
+
+Trace konfigurasi yang ditinjau:
+Iterasi 1: posisi=(2,1), nextDigit=0, cost=0
+Iterasi 2: posisi=(1,1), nextDigit=1, cost=2
+Iterasi 3: posisi=(2,1), nextDigit=1, cost=3
+Iterasi 4: posisi=(1,3), nextDigit=1, cost=9

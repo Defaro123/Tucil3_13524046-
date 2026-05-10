@@ -1,0 +1,102 @@
+Algoritma: A*
+Heuristic: H1
+Solusi Yang Ditemukan: RULUDRUR
+Cost dari Solusi: 87
+Waktu eksekusi: 0.000 ms
+Banyak iterasi yang dilakukan: 13 iterasi
+
+Initial
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Step 1 : R
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Step 2 : U
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Step 3 : L
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Step 4 : U
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Step 5 : D
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Step 6 : R
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Step 7 : U
+XXXXXXX
+X*****X
+X**X**X
+X**Z*OX
+X****LX
+X***X*X
+XXXXXXX
+
+Step 8 : R
+XXXXXXX
+X*****X
+X**X**X
+X****ZX
+X****LX
+X***X*X
+XXXXXXX
+
+Trace konfigurasi yang ditinjau:
+Iterasi 1: posisi=(5,1), nextDigit=0, cost=0
+Iterasi 2: posisi=(5,3), nextDigit=0, cost=7
+Iterasi 3: posisi=(3,3), nextDigit=0, cost=17
+Iterasi 4: posisi=(3,1), nextDigit=0, cost=27
+Iterasi 5: posisi=(3,5), nextDigit=0, cost=26
+Iterasi 6: posisi=(1,5), nextDigit=0, cost=36
+Iterasi 7: posisi=(1,1), nextDigit=1, cost=37
+Iterasi 8: posisi=(1,5), nextDigit=1, cost=53
+Iterasi 9: posisi=(5,1), nextDigit=2, cost=61
+Iterasi 10: posisi=(5,3), nextDigit=2, cost=68
+Iterasi 11: posisi=(3,3), nextDigit=2, cost=78
+Iterasi 12: posisi=(1,1), nextDigit=2, cost=79
+Iterasi 13: posisi=(3,5), nextDigit=2, cost=87

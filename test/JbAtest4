@@ -1,0 +1,234 @@
+Algoritma: A*
+Heuristic: H2
+Solusi Yang Ditemukan: RDLDRDLDRDL
+Cost dari Solusi: 81
+Waktu eksekusi: 0.000 ms
+Banyak iterasi yang dilakukan: 22 iterasi
+
+Initial
+XXXXXXXXXXXXXXX
+XZ0******1****X
+XXXXXXXXXXXXX*X
+X****3*****2**X
+X*XXXXXXXXXXXXX
+X*4*******5***X
+XXXXXXXXXXXXX*X
+X***7****6****X
+X*XXXXXXXXXXXXX
+X*****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 1 : R
+XXXXXXXXXXXXXXX
+X************ZX
+XXXXXXXXXXXXX*X
+X****3*****2**X
+X*XXXXXXXXXXXXX
+X*4*******5***X
+XXXXXXXXXXXXX*X
+X***7****6****X
+X*XXXXXXXXXXXXX
+X*****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 2 : D
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X****3*****2*ZX
+X*XXXXXXXXXXXXX
+X*4*******5***X
+XXXXXXXXXXXXX*X
+X***7****6****X
+X*XXXXXXXXXXXXX
+X*****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 3 : L
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+XZ************X
+X*XXXXXXXXXXXXX
+X*4*******5***X
+XXXXXXXXXXXXX*X
+X***7****6****X
+X*XXXXXXXXXXXXX
+X*****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 4 : D
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+XZ4*******5***X
+XXXXXXXXXXXXX*X
+X***7****6****X
+X*XXXXXXXXXXXXX
+X*****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 5 : R
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X************ZX
+XXXXXXXXXXXXX*X
+X***7****6****X
+X*XXXXXXXXXXXXX
+X*****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 6 : D
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X***7****6***ZX
+X*XXXXXXXXXXXXX
+X*****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 7 : L
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+XZ************X
+X*XXXXXXXXXXXXX
+X*****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 8 : D
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+XZ****8*******X
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 9 : R
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X************ZX
+XXXXXXXXXXXXX*X
+X*O*****9*****X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 10 : D
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*O*****9****ZX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Step 11 : L
+XXXXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*************X
+X*XXXXXXXXXXXXX
+X*************X
+XXXXXXXXXXXXX*X
+X*Z***********X
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+
+Trace konfigurasi yang ditinjau:
+Iterasi 1: posisi=(1,1), nextDigit=0, cost=0
+Iterasi 2: posisi=(1,13), nextDigit=2, cost=12
+Iterasi 3: posisi=(3,13), nextDigit=2, cost=14
+Iterasi 4: posisi=(3,1), nextDigit=4, cost=26
+Iterasi 5: posisi=(5,1), nextDigit=4, cost=28
+Iterasi 6: posisi=(1,1), nextDigit=2, cost=24
+Iterasi 7: posisi=(5,13), nextDigit=6, cost=40
+Iterasi 8: posisi=(7,13), nextDigit=6, cost=42
+Iterasi 9: posisi=(3,13), nextDigit=4, cost=38
+Iterasi 10: posisi=(1,13), nextDigit=4, cost=40
+Iterasi 11: posisi=(1,1), nextDigit=4, cost=52
+Iterasi 12: posisi=(7,1), nextDigit=8, cost=54
+Iterasi 13: posisi=(9,1), nextDigit=8, cost=56
+Iterasi 14: posisi=(5,1), nextDigit=6, cost=52
+Iterasi 15: posisi=(3,1), nextDigit=6, cost=54
+Iterasi 16: posisi=(3,13), nextDigit=6, cost=66
+Iterasi 17: posisi=(7,13), nextDigit=8, cost=66
+Iterasi 18: posisi=(9,13), nextDigit=9, cost=68
+Iterasi 19: posisi=(11,13), nextDigit=9, cost=70
+Iterasi 20: posisi=(1,13), nextDigit=6, cost=68
+Iterasi 21: posisi=(5,13), nextDigit=8, cost=68
+Iterasi 22: posisi=(11,2), nextDigit=10, cost=81

@@ -1,0 +1,783 @@
+Algoritma: A*
+Heuristic: H3
+Solusi Yang Ditemukan: URLDURDRDLDRULULDRUDLURURDRDLD
+Cost dari Solusi: 847
+Waktu eksekusi: 0.000 ms
+Banyak iterasi yang dilakukan: 248 iterasi
+
+Initial
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X************0X
+X1*X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X***Z*********X
+XXXXXXXXXXXXXXX
+
+Step 1 : U
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X***Z********0X
+X1*X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 2 : R
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X************ZX
+X1*X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 3 : L
+XXXXXXXXXXXXXXX
+X***X*****X***X
+XZ************X
+X1*X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 4 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+XZ*X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 5 : U
+XXXXXXXXXXXXXXX
+XZ**X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 6 : R
+XXXXXXXXXXXXXXX
+X**ZX*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 7 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X**Z**********X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 8 : R
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X************ZX
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X2X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 9 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X*****ZX
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 10 : L
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******XZ*****X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 11 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X*******Z*****X
+XXXXXXXXXXXXXXX
+
+Step 12 : R
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********3X
+XX************X
+X*****X*******X
+X************ZX
+XXXXXXXXXXXXXXX
+
+Step 13 : U
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X*********ZX
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 14 : L
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**XZ*********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 15 : U
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X***Z*********X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 16 : L
+XXXXXXXXXXXXXXX
+X***X*****X***X
+XZ************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 17 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+XZ*X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 18 : R
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*4*******XX**X
+X******X******X
+X*******O****XX
+X*ZX**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 19 : U
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*Z*******X***X
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 20 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*Z***********X
+XXXXXXXXXXXXXXX
+
+Step 21 : L
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+XZ************X
+XXXXXXXXXXXXXXX
+
+Step 22 : U
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+XZ****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 23 : R
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X****5****X*X
+X*********X***X
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X****ZX*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 24 : U
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X**Z*5****X*X
+X*********X***X
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 25 : R
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X********ZX*X
+X*********X***X
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 26 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X*********X*X
+X*********XZ**X
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 27 : R
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X*********X*X
+X*********X**ZX
+X*********XX**X
+X******X******X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 28 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X*********X*X
+X*********X***X
+X*********XX**X
+X******X*****ZX
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 29 : L
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X*********X*X
+X*********X***X
+X*********XX**X
+X******XZ*****X
+X*******O****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Step 30 : D
+XXXXXXXXXXXXXXX
+X***X*****X***X
+X*************X
+X**X*******X**X
+X*X**XX*******X
+X*X*********X*X
+X*********X***X
+X*********XX**X
+X******X******X
+X*******Z****XX
+X**X**********X
+XX************X
+X*****X*******X
+X*************X
+XXXXXXXXXXXXXXX
+
+Trace konfigurasi yang ditinjau:
+Iterasi 1: posisi=(13,4), nextDigit=0, cost=0
+Iterasi 2: posisi=(13,1), nextDigit=0, cost=15
+Iterasi 3: posisi=(12,1), nextDigit=0, cost=24
+Iterasi 4: posisi=(12,5), nextDigit=0, cost=38
+Iterasi 5: posisi=(13,5), nextDigit=0, cost=39
+Iterasi 6: posisi=(13,13), nextDigit=0, cost=49
+Iterasi 7: posisi=(2,4), nextDigit=0, cost=59
+Iterasi 8: posisi=(2,1), nextDigit=0, cost=75
+Iterasi 9: posisi=(1,1), nextDigit=0, cost=80
+Iterasi 10: posisi=(5,5), nextDigit=0, cost=84
+Iterasi 11: posisi=(1,3), nextDigit=0, cost=90
+Iterasi 12: posisi=(2,3), nextDigit=0, cost=95
+Iterasi 13: posisi=(5,3), nextDigit=0, cost=95
+Iterasi 14: posisi=(2,13), nextDigit=1, cost=113
+Iterasi 15: posisi=(4,3), nextDigit=0, cost=103
+Iterasi 16: posisi=(1,13), nextDigit=1, cost=115
+Iterasi 17: posisi=(4,4), nextDigit=0, cost=107
+Iterasi 18: posisi=(1,11), nextDigit=1, cost=123
+Iterasi 19: posisi=(2,11), nextDigit=1, cost=132
+Iterasi 20: posisi=(9,3), nextDigit=0, cost=114
+Iterasi 21: posisi=(9,1), nextDigit=0, cost=125
+Iterasi 22: posisi=(10,1), nextDigit=0, cost=131
+Iterasi 23: posisi=(10,2), nextDigit=0, cost=140
+Iterasi 24: posisi=(9,12), nextDigit=0, cost=160
+Iterasi 25: posisi=(2,1), nextDigit=1, cost=182
+Iterasi 26: posisi=(1,1), nextDigit=1, cost=187
+Iterasi 27: posisi=(6,12), nextDigit=0, cost=175
+Iterasi 28: posisi=(13,2), nextDigit=0, cost=159
+Iterasi 29: posisi=(6,13), nextDigit=0, cost=177
+Iterasi 30: posisi=(6,11), nextDigit=0, cost=176
+Iterasi 31: posisi=(4,11), nextDigit=0, cost=183
+Iterasi 32: posisi=(1,3), nextDigit=1, cost=197
+Iterasi 33: posisi=(13,12), nextDigit=0, cost=177
+Iterasi 34: posisi=(8,13), nextDigit=0, cost=183
+Iterasi 35: posisi=(2,3), nextDigit=1, cost=202
+Iterasi 36: posisi=(4,13), nextDigit=0, cost=195
+Iterasi 37: posisi=(4,7), nextDigit=0, cost=199
+Iterasi 38: posisi=(1,7), nextDigit=0, cost=211
+Iterasi 39: posisi=(10,1), nextDigit=2, cost=231
+Iterasi 40: posisi=(8,8), nextDigit=0, cost=214
+Iterasi 41: posisi=(1,9), nextDigit=0, cost=223
+Iterasi 42: posisi=(10,2), nextDigit=2, cost=240
+Iterasi 43: posisi=(1,5), nextDigit=0, cost=222
+Iterasi 44: posisi=(3,5), nextDigit=0, cost=233
+Iterasi 45: posisi=(3,4), nextDigit=0, cost=239
+Iterasi 46: posisi=(13,8), nextDigit=0, cost=235
+Iterasi 47: posisi=(13,2), nextDigit=2, cost=259
+Iterasi 48: posisi=(1,8), nextDigit=0, cost=247
+Iterasi 49: posisi=(13,1), nextDigit=2, cost=267
+Iterasi 50: posisi=(3,10), nextDigit=0, cost=263
+Iterasi 51: posisi=(2,10), nextDigit=0, cost=265
+Iterasi 52: posisi=(12,1), nextDigit=2, cost=276
+Iterasi 53: posisi=(1,1), nextDigit=2, cost=283
+Iterasi 54: posisi=(12,5), nextDigit=2, cost=290
+Iterasi 55: posisi=(13,5), nextDigit=2, cost=291
+Iterasi 56: posisi=(1,3), nextDigit=2, cost=293
+Iterasi 57: posisi=(5,10), nextDigit=0, cost=277
+Iterasi 58: posisi=(2,3), nextDigit=2, cost=298
+Iterasi 59: posisi=(5,11), nextDigit=0, cost=281
+Iterasi 60: posisi=(13,13), nextDigit=2, cost=313
+Iterasi 61: posisi=(13,9), nextDigit=0, cost=280
+Iterasi 62: posisi=(2,1), nextDigit=2, cost=309
+Iterasi 63: posisi=(5,5), nextDigit=2, cost=336
+Iterasi 64: posisi=(5,3), nextDigit=2, cost=347
+Iterasi 65: posisi=(2,13), nextDigit=2, cost=360
+Iterasi 66: posisi=(4,3), nextDigit=2, cost=355
+Iterasi 67: posisi=(1,13), nextDigit=2, cost=362
+Iterasi 68: posisi=(4,4), nextDigit=2, cost=359
+Iterasi 69: posisi=(1,11), nextDigit=2, cost=370
+Iterasi 70: posisi=(9,3), nextDigit=2, cost=366
+Iterasi 71: posisi=(8,13), nextDigit=3, cost=385
+Iterasi 72: posisi=(2,11), nextDigit=2, cost=379
+Iterasi 73: posisi=(2,4), nextDigit=2, cost=373
+Iterasi 74: posisi=(9,1), nextDigit=2, cost=377
+Iterasi 75: posisi=(9,12), nextDigit=2, cost=412
+Iterasi 76: posisi=(8,8), nextDigit=3, cost=416
+Iterasi 77: posisi=(13,4), nextDigit=2, cost=403
+Iterasi 78: posisi=(1,13), nextDigit=3, cost=416
+Iterasi 79: posisi=(6,12), nextDigit=2, cost=427
+Iterasi 80: posisi=(1,11), nextDigit=3, cost=424
+Iterasi 81: posisi=(6,13), nextDigit=2, cost=429
+Iterasi 82: posisi=(6,11), nextDigit=2, cost=428
+Iterasi 83: posisi=(13,12), nextDigit=2, cost=429
+Iterasi 84: posisi=(2,11), nextDigit=3, cost=433
+Iterasi 85: posisi=(8,13), nextDigit=2, cost=435
+Iterasi 86: posisi=(4,11), nextDigit=2, cost=435
+Iterasi 87: posisi=(13,8), nextDigit=3, cost=437
+Iterasi 88: posisi=(2,13), nextDigit=3, cost=445
+Iterasi 89: posisi=(4,13), nextDigit=2, cost=447
+Iterasi 90: posisi=(1,8), nextDigit=3, cost=449
+Iterasi 91: posisi=(4,7), nextDigit=2, cost=451
+Iterasi 92: posisi=(1,9), nextDigit=3, cost=458
+Iterasi 93: posisi=(13,13), nextDigit=3, cost=468
+Iterasi 94: posisi=(1,5), nextDigit=3, cost=461
+Iterasi 95: posisi=(1,7), nextDigit=2, cost=463
+Iterasi 96: posisi=(8,8), nextDigit=2, cost=466
+Iterasi 97: posisi=(13,1), nextDigit=3, cost=467
+Iterasi 98: posisi=(10,13), nextDigit=4, cost=485
+Iterasi 99: posisi=(3,5), nextDigit=3, cost=472
+Iterasi 100: posisi=(1,9), nextDigit=2, cost=475
+Iterasi 101: posisi=(12,1), nextDigit=3, cost=476
+Iterasi 102: posisi=(1,5), nextDigit=2, cost=474
+Iterasi 103: posisi=(3,4), nextDigit=3, cost=478
+Iterasi 104: posisi=(3,5), nextDigit=2, cost=485
+Iterasi 105: posisi=(12,5), nextDigit=3, cost=490
+Iterasi 106: posisi=(13,13), nextDigit=4, cost=498
+Iterasi 107: posisi=(13,5), nextDigit=3, cost=491
+Iterasi 108: posisi=(2,4), nextDigit=3, cost=486
+Iterasi 109: posisi=(13,8), nextDigit=2, cost=487
+Iterasi 110: posisi=(3,4), nextDigit=2, cost=491
+Iterasi 111: posisi=(2,1), nextDigit=3, cost=490
+Iterasi 112: posisi=(10,4), nextDigit=4, cost=520
+Iterasi 113: posisi=(3,10), nextDigit=3, cost=502
+Iterasi 114: posisi=(1,8), nextDigit=2, cost=499
+Iterasi 115: posisi=(2,10), nextDigit=3, cost=504
+Iterasi 116: posisi=(1,1), nextDigit=3, cost=495
+Iterasi 117: posisi=(13,9), nextDigit=3, cost=515
+Iterasi 118: posisi=(1,3), nextDigit=3, cost=505
+Iterasi 119: posisi=(5,10), nextDigit=3, cost=516
+Iterasi 120: posisi=(3,10), nextDigit=2, cost=515
+Iterasi 121: posisi=(5,11), nextDigit=3, cost=520
+Iterasi 122: posisi=(6,11), nextDigit=3, cost=521
+Iterasi 123: posisi=(2,3), nextDigit=3, cost=510
+Iterasi 124: posisi=(2,10), nextDigit=2, cost=517
+Iterasi 125: posisi=(4,11), nextDigit=3, cost=523
+Iterasi 126: posisi=(6,13), nextDigit=3, cost=527
+Iterasi 127: posisi=(13,4), nextDigit=4, cost=537
+Iterasi 128: posisi=(5,10), nextDigit=2, cost=529
+Iterasi 129: posisi=(13,4), nextDigit=3, cost=526
+Iterasi 130: posisi=(5,11), nextDigit=2, cost=533
+Iterasi 131: posisi=(4,13), nextDigit=3, cost=535
+Iterasi 132: posisi=(13,1), nextDigit=4, cost=552
+Iterasi 133: posisi=(13,9), nextDigit=2, cost=532
+Iterasi 134: posisi=(5,5), nextDigit=3, cost=536
+Iterasi 135: posisi=(10,1), nextDigit=3, cost=539
+Iterasi 136: posisi=(4,7), nextDigit=3, cost=539
+Iterasi 137: posisi=(12,1), nextDigit=4, cost=561
+Iterasi 138: posisi=(2,4), nextDigit=4, cost=564
+Iterasi 139: posisi=(10,2), nextDigit=3, cost=548
+Iterasi 140: posisi=(5,3), nextDigit=3, cost=547
+Iterasi 141: posisi=(1,7), nextDigit=3, cost=551
+Iterasi 142: posisi=(12,5), nextDigit=4, cost=575
+Iterasi 143: posisi=(4,3), nextDigit=3, cost=555
+Iterasi 144: posisi=(13,5), nextDigit=4, cost=576
+Iterasi 145: posisi=(2,1), nextDigit=4, cost=580
+Iterasi 146: posisi=(4,4), nextDigit=3, cost=559
+Iterasi 147: posisi=(9,3), nextDigit=3, cost=566
+Iterasi 148: posisi=(1,1), nextDigit=4, cost=585
+Iterasi 149: posisi=(13,2), nextDigit=3, cost=567
+Iterasi 150: posisi=(1,3), nextDigit=4, cost=595
+Iterasi 151: posisi=(9,1), nextDigit=3, cost=577
+Iterasi 152: posisi=(2,3), nextDigit=4, cost=600
+Iterasi 153: posisi=(5,5), nextDigit=4, cost=621
+Iterasi 154: posisi=(9,12), nextDigit=3, cost=612
+Iterasi 155: posisi=(10,1), nextDigit=4, cost=629
+Iterasi 156: posisi=(2,13), nextDigit=4, cost=618
+Iterasi 157: posisi=(5,3), nextDigit=4, cost=632
+Iterasi 158: posisi=(1,13), nextDigit=4, cost=620
+Iterasi 159: posisi=(10,2), nextDigit=4, cost=638
+Iterasi 160: posisi=(1,11), nextDigit=4, cost=628
+Iterasi 161: posisi=(4,3), nextDigit=4, cost=640
+Iterasi 162: posisi=(6,12), nextDigit=3, cost=627
+Iterasi 163: posisi=(13,12), nextDigit=3, cost=629
+Iterasi 164: posisi=(4,4), nextDigit=4, cost=644
+Iterasi 165: posisi=(2,11), nextDigit=4, cost=637
+Iterasi 166: posisi=(9,3), nextDigit=4, cost=651
+Iterasi 167: posisi=(8,13), nextDigit=4, cost=643
+Iterasi 168: posisi=(6,2), nextDigit=5, cost=657
+Iterasi 169: posisi=(6,1), nextDigit=5, cost=662
+Iterasi 170: posisi=(13,2), nextDigit=4, cost=657
+Iterasi 171: posisi=(9,1), nextDigit=4, cost=662
+Iterasi 172: posisi=(8,8), nextDigit=4, cost=674
+Iterasi 173: posisi=(10,1), nextDigit=5, cost=687
+Iterasi 174: posisi=(1,1), nextDigit=5, cost=690
+Iterasi 175: posisi=(6,9), nextDigit=5, cost=699
+Iterasi 176: posisi=(10,2), nextDigit=5, cost=696
+Iterasi 177: posisi=(1,3), nextDigit=5, cost=700
+Iterasi 178: posisi=(13,2), nextDigit=5, cost=696
+Iterasi 179: posisi=(2,3), nextDigit=5, cost=705
+Iterasi 180: posisi=(13,8), nextDigit=4, cost=695
+Iterasi 181: posisi=(9,12), nextDigit=4, cost=697
+Iterasi 182: posisi=(13,1), nextDigit=5, cost=704
+Iterasi 183: posisi=(2,1), nextDigit=5, cost=716
+Iterasi 184: posisi=(1,8), nextDigit=4, cost=707
+Iterasi 185: posisi=(12,1), nextDigit=5, cost=713
+Iterasi 186: posisi=(6,12), nextDigit=4, cost=712
+Iterasi 187: posisi=(6,11), nextDigit=4, cost=713
+Iterasi 188: posisi=(1,9), nextDigit=5, cost=726
+Iterasi 189: posisi=(6,13), nextDigit=4, cost=714
+Iterasi 190: posisi=(1,5), nextDigit=4, cost=719
+Iterasi 191: posisi=(1,9), nextDigit=4, cost=716
+Iterasi 192: posisi=(12,5), nextDigit=5, cost=727
+Iterasi 193: posisi=(13,12), nextDigit=4, cost=714
+Iterasi 194: posisi=(13,5), nextDigit=5, cost=728
+Iterasi 195: posisi=(4,11), nextDigit=4, cost=720
+Iterasi 196: posisi=(13,9), nextDigit=5, cost=729
+Iterasi 197: posisi=(3,5), nextDigit=4, cost=730
+Iterasi 198: posisi=(1,5), nextDigit=5, cost=741
+Iterasi 199: posisi=(3,4), nextDigit=4, cost=736
+Iterasi 200: posisi=(4,7), nextDigit=4, cost=736
+Iterasi 201: posisi=(4,13), nextDigit=4, cost=732
+Iterasi 202: posisi=(3,5), nextDigit=5, cost=752
+Iterasi 203: posisi=(3,4), nextDigit=5, cost=758
+Iterasi 204: posisi=(13,13), nextDigit=5, cost=750
+Iterasi 205: posisi=(1,7), nextDigit=4, cost=748
+Iterasi 206: posisi=(2,4), nextDigit=5, cost=766
+Iterasi 207: posisi=(5,5), nextDigit=5, cost=773
+Iterasi 208: posisi=(2,13), nextDigit=5, cost=767
+Iterasi 209: posisi=(10,13), nextDigit=5, cost=767
+Iterasi 210: posisi=(3,10), nextDigit=4, cost=760
+Iterasi 211: posisi=(1,13), nextDigit=5, cost=769
+Iterasi 212: posisi=(2,10), nextDigit=4, cost=762
+Iterasi 213: posisi=(1,11), nextDigit=5, cost=777
+Iterasi 214: posisi=(3,10), nextDigit=5, cost=782
+Iterasi 215: posisi=(5,3), nextDigit=5, cost=784
+Iterasi 216: posisi=(2,10), nextDigit=5, cost=784
+Iterasi 217: posisi=(5,10), nextDigit=4, cost=774
+Iterasi 218: posisi=(13,9), nextDigit=4, cost=773
+Iterasi 219: posisi=(2,11), nextDigit=5, cost=786
+Iterasi 220: posisi=(5,11), nextDigit=4, cost=778
+Iterasi 221: posisi=(4,3), nextDigit=5, cost=792
+Iterasi 222: posisi=(5,10), nextDigit=5, cost=796
+Iterasi 223: posisi=(4,4), nextDigit=5, cost=796
+Iterasi 224: posisi=(8,13), nextDigit=5, cost=792
+Iterasi 225: posisi=(5,11), nextDigit=6, cost=800
+Iterasi 226: posisi=(6,11), nextDigit=6, cost=801
+Iterasi 227: posisi=(5,11), nextDigit=5, cost=800
+Iterasi 228: posisi=(6,11), nextDigit=5, cost=801
+Iterasi 229: posisi=(4,11), nextDigit=6, cost=803
+Iterasi 230: posisi=(4,11), nextDigit=5, cost=803
+Iterasi 231: posisi=(10,4), nextDigit=5, cost=802
+Iterasi 232: posisi=(6,13), nextDigit=6, cost=807
+Iterasi 233: posisi=(9,3), nextDigit=5, cost=803
+Iterasi 234: posisi=(6,13), nextDigit=5, cost=807
+Iterasi 235: posisi=(8,13), nextDigit=6, cost=813
+Iterasi 236: posisi=(13,4), nextDigit=5, cost=806
+Iterasi 237: posisi=(4,13), nextDigit=6, cost=815
+Iterasi 238: posisi=(4,7), nextDigit=6, cost=819
+Iterasi 239: posisi=(4,7), nextDigit=5, cost=819
+Iterasi 240: posisi=(4,13), nextDigit=5, cost=815
+Iterasi 241: posisi=(9,1), nextDigit=5, cost=814
+Iterasi 242: posisi=(8,8), nextDigit=5, cost=823
+Iterasi 243: posisi=(5,3), nextDigit=6, cost=831
+Iterasi 244: posisi=(1,7), nextDigit=6, cost=831
+Iterasi 245: posisi=(1,7), nextDigit=5, cost=831
+Iterasi 246: posisi=(7,7), nextDigit=6, cost=838
+Iterasi 247: posisi=(8,8), nextDigit=6, cost=844
+Iterasi 248: posisi=(9,8), nextDigit=6, cost=847
